@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZCZXK Bots</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#0d1117;color:#fff}
+
+/* Navbar */
+.nav{
+  display:flex;justify-content:space-between;
+  padding:15px 25px;
+  background:#161b22;
+  position:sticky;top:0;
+}
+.nav h2{color:#58a6ff}
+.nav a{color:#ccc;margin-left:15px;text-decoration:none}
+.nav a:hover{color:#fff}
+
+/* Hero */
+.hero{text-align:center;padding:60px 20px}
+.hero h1{font-size:2.5em}
+.hero p{color:#aaa;margin-top:10px}
+
+/* Stats */
+.stats{
+  display:flex;justify-content:center;
+  gap:20px;margin-top:30px;flex-wrap:wrap;
+}
+.stat{
+  background:#161b22;
+  padding:15px 25px;
+  border-radius:10px;
+}
+
+/* Bots */
+.bots{
+  padding:40px 20px;
+  display:flex;justify-content:center;
+  gap:30px;flex-wrap:wrap;
+}
+.bot{
+  background:#161b22;
+  padding:20px;
+  border-radius:15px;
+  width:260px;
+  text-align:center;
+  transition:.3s;
+}
+.bot:hover{transform:translateY(-5px)}
+
+.bot img{
+  width:80px;height:80px;
+  border-radius:50%;
+}
+
+.bot h3{margin-top:10px}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#238636;
+  color:#fff;
+  border-radius:8px;
+  text-decoration:none;
+}
+.btn:hover{background:#2ea043}
+
+/* Commands */
+.commands{
+  padding:40px 20px;
+  text-align:center;
+}
+.commands ul{
+  list-style:none;
+  margin-top:15px;
+}
+.commands li{margin:5px 0;color:#aaa}
+
+/* Footer */
+.footer{
+  text-align:center;
+  padding:20px;
+  color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="nav">
+  <h2>ZCZXK</h2>
+  <div>
+    <a href="#">Home</a>
+    <a href="#bots">Bots</a>
+    <a href="#commands">Commands</a>
+  </div>
+</div>
+
+<!-- Hero -->
+<div class="hero">
+  <h1>Powerful Discord Bots</h1>
+  <p>Add bots to your server instantly</p>
+
+  <div class="stats">
+    <div class="stat">🌐 Servers: 100+</div>
+    <div class="stat">👥 Users: 10K+</div>
+    <div class="stat">⚡ Uptime: 99%</div>
+  </div>
+</div>
+
+<!-- Bots -->
+<div class="bots" id="bots">
+
+  <!-- Bot 1 -->
+  <div class="bot">
+    <img src="https://cdn.discordapp.com/embed/avatars/0.png">
+    <h3>Bot One</h3>
+    <p style="color:#aaa">Moderation • Economy</p>
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1489882067239047168&permissions=8&scope=bot%20applications.commands" target="_blank">Invite</a>
+  </div>
+
+  <!-- Bot 2 -->
+  <div class="bot">
+    <img src="https://cdn.discordapp.com/embed/avatars/1.png">
+    <h3>Bot Two</h3>
+    <p style="color:#aaa">Tickets • Utility</p>
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1497853623621779516&permissions=8&scope=bot%20applications.commands" target="_blank">Invite</a>
+  </div>
+
+</div>
+
+<!-- Commands -->
+<div class="commands" id="commands">
+  <h2>Commands Preview</h2>
+  <ul>
+    <li>/ban /kick /timeout</li>
+    <li>/balance /pay /daily</li>
+    <li>/ticket /close</li>
+  </ul>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  © 2026 ZCZXK • PremPlay
+</div>
+
+</body>
+  </html>
